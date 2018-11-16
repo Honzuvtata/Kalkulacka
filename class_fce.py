@@ -20,17 +20,3 @@ class Calc():
 
     def vydel(self):
         return(self.numberMemory[self.numberOrder - 1] / self.numberMemory[self.numberOrder])
-
-calc = Calc()
-
-calc.numberMemory.append(10)
-
-calc.numberMemory.append(5)
-
-print(calc.secti())
-
-print(calc.odecti())
-
-print(calc.vynasob())
-
-print(calc.vydel())
